@@ -1,6 +1,7 @@
 ---
 name: update-github-info
 description: Draft concise GitHub Info website updates from official GitHub sources.
+model: GPT-5.6-luna
 on:
   schedule:
     - cron: daily
