@@ -12,6 +12,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 
 tools:
   edit:
@@ -35,6 +36,11 @@ Use `web-fetch` to read:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
+
+Also include Awesome Copilot workflows as an official source:
+
+- https://awesome-copilot.github.com/workflows/
 
 Use the GitHub repository API read tools from the `repos` toolset to read repository guidance and reference files. Do not use terminal, CLI, or sandboxed commands for repository reads.
 
