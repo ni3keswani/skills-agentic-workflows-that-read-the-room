@@ -6,7 +6,11 @@ on:
     - cron: daily
   workflow_dispatch:
 
-permissions: read-all
+permissions:
+  contents: read
+  issues: read
+  pull-requests: read
+  copilot-requests: write
 
 network:
   allowed:
