@@ -1,7 +1,6 @@
 ---
 name: update-github-info
 description: Draft concise GitHub Info website updates from official GitHub sources.
-model: GPT-5.3-Codex
 on:
   schedule:
     - cron: daily
